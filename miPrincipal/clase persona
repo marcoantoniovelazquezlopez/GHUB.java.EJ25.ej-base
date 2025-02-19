@@ -1,0 +1,30 @@
+package miPrincipal;
+public class Persona{
+
+    private String nombre;
+    private int edad;
+    private String dni;
+
+    //Metodos contructores
+    //Vacio
+    public Persona(){
+
+    }
+    //LLeno
+
+    public Persona (String nombre, int edad, String dni){
+        this.nombre=nombre;
+        this.edad=edad;
+        this.dni=dni;
+    }
+
+    public void saludarr (){
+        System.out.println("Hola mundo, soy una persona");
+
+    }
+
+    public void saludar() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'saludar'");
+    }
+}

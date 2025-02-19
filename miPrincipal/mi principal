@@ -1,0 +1,21 @@
+package miPrincipal;
+
+public class Principal {
+
+
+    public static void main(String[] args) {
+        Persona p1=new Persona();
+        Persona p2=new Persona("Juan",18,"23456");
+        Alumno a1=new Alumno ();
+        Alumno a2=new Alumno("Alicia",20,"23456","Sistemas");
+
+        p1.saludar();
+        p2.saludar();
+
+        a1.estudiar();
+        a2.estudiar();
+
+
+
+    
+}
